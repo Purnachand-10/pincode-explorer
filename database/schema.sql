@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS pincode_explorer;
+USE pincode_explorer;
+
+CREATE TABLE IF NOT EXISTS search_history (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    pincode VARCHAR(10) NOT NULL,
+    searched_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
