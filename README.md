@@ -1,16 +1,11 @@
-# Pincode Explorer 🌍📮
+# Pincode Explorer 
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![React](https://img.shields.io/badge/frontend-React_Vite-61DAFB.svg?logo=react)
-![Node](https://img.shields.io/badge/backend-Node.js-339933.svg?logo=nodedotjs)
-![FastAPI](https://img.shields.io/badge/service-FastAPI-009688.svg?logo=fastapi)
-![MySQL](https://img.shields.io/badge/database-MySQL-4479A1.svg?logo=mysql)
 
 Pincode Explorer is a robust, full-stack microservices application designed to fetch and display detailed postal code information for locations across India. It leverages a modern tech stack to ensure high performance, separation of concerns, and resilient external API communication.
 
 ---
 
-## 🌟 Features
+##  Features
 
 * **Real-time Search:** Search for any 6-digit Indian postal code to instantly retrieve details.
 * **Resilient Architecture:** Microservice design handles external API instability gracefully. If the third-party postal API is down, the system provides mock fallback data rather than crashing.
@@ -19,7 +14,7 @@ Pincode Explorer is a robust, full-stack microservices application designed to f
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 The project is split into four distinct layers:
 
@@ -38,7 +33,7 @@ graph LR
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Frontend:** React 18, Vite, CSS3
 * **Node Backend:** Node.js, Express, Axios, MySQL2
@@ -47,7 +42,7 @@ graph LR
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine.
 
@@ -113,6 +108,6 @@ pincode-explorer/
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
